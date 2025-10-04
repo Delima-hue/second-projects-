@@ -1,0 +1,302 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+ 
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: goldenrod
+}
+.navbar span{
+    margin-top: 15px;
+}
+.navbar .top-icons{
+    display: flex;
+    gap: 10px;
+    margin-right: 9px;
+}
+.img-container{
+    background-image: url(image/markus-hmr-3-G-ACNPbDo-unsplash.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    
+}
+ .navbar .logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:skyblue;
+ }
+ .navbar h3{
+    margin-left: 5px;
+ }
+.Text1{
+    margin-top: 30px;
+    margin-right: 300px;
+    text-align: end;
+    width: 100px;
+}
+.Text1 h1{
+    font-size: 56px;
+    color: white;
+}
+.Text1 a{
+    margin-right: 10px;
+    color: white;
+    font-size: 17px;
+}
+.main-div{
+    position: relative;
+    margin: 35px auto;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    background-color:rgba(32, 178, 171, 0.621)
+}
+.free-delivery .circle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 100%;
+    transform: translateY(-25px);
+    margin-left: 8%;
+    text-align: center;
+    align-content: center;
+}
+.free-delivery h4{
+    margin-top: 42px;
+    margin-left: 85px;
+}
+.free-delivery p{
+    margin-left: 10px;
+}
+/* Best seller section */
+.Best-seller{
+    text-align: center;
+    text-transform: capitalize;
+}
+.Best-seller h2{
+ margin-bottom: 0;
+}
+.Best-seller hr{
+    width: 50px;
+    border: 1px solid;
+   margin-top: 5px;  
+}
+.Best-seller p{
+    margin-top: 5px;
+}
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+   
+}
+.products{
+    background-color: rgb(242, 242, 242);
+    padding: 15px;
+    border: 1px;
+    border-radius: 8px;
+}
+.products img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+}
+.Wrapped-Bouquets{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.wrapped{
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.wrapped h3{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+.wrapped p{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: aqua;
+
+}
+
+.wrapped img{ 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.flower-box{
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.flower-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.flower-box h3{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.flower-box p{
+ position: absolute;
+ margin-left: 15px;
+ margin-top: 50px;
+ color: aqua;
+}
+/* hot deal section */
+.hot-dealsec{
+  text-align: center;
+}
+.hot-dealsec hr{
+    width: 50px;
+    border: 1px solid;
+    color: green;
+}
+.hot-deal{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 30px;
+    justify-content: center;
+}
+.flash-sale{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: darkolivegreen;
+}
+.flash-sale img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.flash-sale h2{
+    margin-left: 30px;
+    color: gold;
+}
+.flash-sale .p-btn{
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    color: white;
+}
+.p-btn button{
+    padding: 10px 13px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+}
+/* blog section  */
+.blog-section{
+ text-align: center;
+}
+.blog-section hr{
+    width: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    color: green;
+}
+.blog-section h2{
+    margin-top: 5px;
+
+}
+.parentdiv-blog{
+  text-align: start;
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+}
+.blog-caraousel{
+   width: 400px;
+   
+}
+.blog-caraousel img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.lastp-div{
+    display: grid;
+    grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5%;
+    grid-auto-rows: 200px;
+    justify-content: center;
+   
+
+}
+
+.lastp-div div img{
+ width:100%;
+ height: 200px;
+ object-fit: cover;
+ object-position: center;
+}
+.footer-sec{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap:40px;
+    justify-content: center; 
+}
+.footer-sec  h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:skyblue;
+}
+.conatct-icon{
+    display: flex;
+    gap: 10px;
+}
+.conatct-icon i{
+    font-size: 18px;
+}
+.footer-sec p{
+    font-family: cursive;
+}
+.footer-sec ul hr{
+    width: 50px;
+    border: 0.5px solid;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+.footer-sec ul{
+    list-style: none;
+}
+.footer-sec ul li{
+    margin-top: 10px;
+}
+.footer-sec div h4{
+margin-left: 28px;
+margin-top: 10px;
+}
